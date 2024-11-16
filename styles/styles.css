@@ -50,7 +50,13 @@ img {
   box-shadow: var(--box-shadow);
 }
 
-p {
+main img {
+  float: right;
+  margin-left: 20px;
+}
+
+main p {
+  clear: right;
   padding: var(--padding);
 }
 
@@ -67,11 +73,6 @@ aside {
 
 aside img {
   width: 200px;
-  height: var(--img-height);
-}
-
-main img {
-  width: var(--img-width);
   height: var(--img-height);
 }
 
