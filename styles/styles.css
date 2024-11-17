@@ -39,7 +39,9 @@ nav a {
 }
 
 h1 {
-  color: var(--steelblue)
+  color: var(--steelblue);
+  margin-left: 1rem; /* add this rule */
+  text-align: left; /* add this rule */
 }
 
 img {
@@ -55,12 +57,25 @@ main img {
   margin-left: 20px;
 }
 
-main p {
-  clear: right;
-  padding: var(--padding);
+main .image-container {
+  overflow: auto;
+}
+
+main .image-container h1 {
+  margin: 1rem;
+}
+
+main .image-container p {
+  margin: 1rem;
+  text-align: justify;
+}
+
+p {
+  padding: 0; /* added this rule */
 }
 
 aside {
+  position: relative; /* add this rule */
   width: 20rem;
   margin: var(--margin);
   border: var(--border);
@@ -74,6 +89,12 @@ aside {
 aside img {
   width: 200px;
   height: var(--img-height);
+}
+
+aside h2 {
+  position: absolute; /* add this rule */
+  top: 10x; /* add this rule */
+  left: 120px; /* add this rule */
 }
 
 footer  {
