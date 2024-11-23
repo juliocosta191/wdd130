@@ -75,7 +75,6 @@ header img {
     width: 30%; 
 }
 
-.sociallinks {
-    text-decoration: none; 
-
+.sociallinks a {
+    text-decoration: none;
 }
