@@ -15,7 +15,7 @@
 .hero {
     position: relative; 
     height: 100vh; 
-    background-image: url('your-image.jpg'); 
+    background-image: url('images/background.webp'); 
     background-size: 100vw auto;
     background-position: center; 
     display: flex;
