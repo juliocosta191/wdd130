@@ -4,12 +4,16 @@
     --accent1-color: #8AB9B5;  
     --accent2-color: #2B4141;  
 }
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .hero {
@@ -36,13 +40,28 @@
     margin: 0;
 }
 
+.history h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: var(--secondary-color);
+    text-align: center;
+    margin: 0;
+}
+
+.adventure h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: var(--secondary-color);
+    text-align: center;
+    margin: 0;
+}
 
 .hero article {
     position: absolute; 
     top: 70%; 
     left: 50%;
     transform: translateX(-50%); 
-    width: 50%; 
+    width: 48%; 
     background-color: rgba(43, 2, 253, 0.5); 
     padding: 20px;
     border-radius: 8px;
