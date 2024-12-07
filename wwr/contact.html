@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Azorean Water Rafting Adventures | Júlio Costa</title>
+  <meta name="author" content="Júlio Costa">
+  <meta name="description" content="Welcome to Azorean Water Rafting Adventures! Our mission is to provide thrilling and unforgettable water rafting experiences.">
+  <link rel="stylesheet" href="styles/rafting.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header>
+    <img src="images/company-logo.png" alt="company logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  
+  <main>
+    <section class="contact-info">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or would like to book your next adventure, feel free to contact us!</p>
+  
+      <div class="contact-details">
+        <p><strong>Address:</strong> 123 Azorean Adventure Road, São Miguel, Azores</p>
+        <p><strong>Phone:</strong> +351 123 456 789</p>
+        <p><strong>Email:</strong> <a href="mailto:info@azoreanrafting.com">info@azoreanrafting.com</a></p>
+      </div>
+  
+      
+      <h3>Find Us on the Map</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+  
+    
+    <section class="employee-profiles">
+      <h2>Meet Our Team</h2>
+      <div class="profile">
+        <img src="images/staff-member1.webp" alt="Employee 1" class="employee-photo">
+        <p>Joana Silva- Lead Rafting Guide</p>
+      </div>
+      <div class="profile">
+        <img src="images/staff-member2.jpeg" alt="Employee 2" class="employee-photo">
+        <p>Maria Silva - Adventure Coordinator</p>
+      </div>
+      <div class="profile">
+        <img src="images/staff-member3.jpeg" alt="Employee 3" class="employee-photo">
+        <p>Pedro Santos - Safety Specialist</p>
+      </div>
+    </section>
+  
+    
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="submit-contact.php" method="POST">
+        
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+  
+       
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="message-purpose">Message Purpose:</label>
+        <textarea id="message-purpose" name="message" rows="4" required></textarea>
+        <div class="radio-buttons">
+          <input type="radio" id="general" name="message-purpose" value="General Inquiry" required>
+          <label for="general">General Inquiry</label>
+          <input type="radio" id="reservation" name="message-purpose" value="Reservation Question">
+          <label for="reservation">Reservation Question</label>
+          <input type="radio" id="suggestion" name="message-purpose" value="Website Suggestion">
+          <label for="suggestion">Website Suggestion</label>
+        </div>
+  
+        
+        <label for="message-text">Your Message:</label>
+        <textarea id="message-text" name="message" rows="4" required></textarea>
+  
+        
+        <label for="subscribe">
+          <input type="checkbox" id="subscribe" name="subscribe">
+          Please subscribe me to the monthly newsletter
+        </label>
+  
+        
+        <button type="submit" class="submit-button">Send Message</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy;2024 Azorean water ratfting adventure, Júlio Costa</p>
+    <nav class="sociallinks">
+      <a href="https://www.facebook.com/">
+        <img src="images/facebook-logo.webp" alt="facebook logo">
+      </a>
+      <a href="https://www.instagram.com/">
+        <img src="images/instagram-logo.webp" alt="instagram logo">
+      </a>
+      <a href="https://www.tiktok.com/">
+        <img src="images/tiktok-logo.webp" alt="tik tok logo">
+      </a>
+    </nav>
+  </footer>
+</body>
+</html>
