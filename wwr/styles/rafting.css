@@ -122,4 +122,6 @@ header img {
   text-align: right;
 }
 
-/* 30-11*/
+.hero-wrapper {
+  margin-left: 450px;
+}
